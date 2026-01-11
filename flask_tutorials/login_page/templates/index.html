@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | My Flask App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <div class="login-container">
-        <form class="login-form" action="/login" method="POST">
+    <div class="Signup-container">
+        <form class="signup-form" action="/register" method="POST">
             <h2>Welcome Back</h2>
             <p>Please enter your details</p>
             
@@ -22,11 +22,9 @@
                 <input type="password" id="password" name="password" required>
             </div>
 
-            <button type="submit" class="login-btn">Log In</button>
+            <button type="submit" class="login-btn">Sign Up</button>
             
-            <div class="form-footer">
-                <p>Don't have an account? <a href="#">Sign up</a></p>
-            </div>
+  
         </form>
     </div>
 </body>

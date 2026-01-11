@@ -13,7 +13,7 @@ body {
     background-color: #f0f2f5;
 }
 
-.login-container {
+.signup-container {
     background-color: #ffffff;
     padding: 2.5rem;
     border-radius: 10px;
@@ -22,7 +22,7 @@ body {
     max-width: 400px;
 }
 
-.login-form h2 {
+.signup-form h2 {
     margin-bottom: 0.5rem;
     color: #1c1e21;
     text-align: center;
@@ -91,4 +91,24 @@ body {
 
 .form-footer a:hover {
     text-decoration: underline;
+}
+
+
+.success-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.icon-check {
+    font-size: 50px;
+    color: #2ecc71; /* A nice success green */
+    margin: 20px 0;
+}
+
+.btn-home {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
 }
